@@ -39,7 +39,7 @@ def guessDegreeInThree():
             
             response = input("Does your degree involve computer programming(yes/no) : ")
             if response.lower() == "yes":
-                degree = random.choice(["our degree is bacholor of computer information systems","our degree is bacholor of Science"])
+                degree = random.choice(["Your degree is bacholor of computer information systems","our degree is bacholor of Science"])
                 print(degree)
                 return
             if response.lower() == "no":
